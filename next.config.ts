@@ -1,7 +1,18 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  compiler: {
+    styledComponents: true,
+  },
+  redirects: async () => {
+    return [
+      {
+        source: "/",
+        destination: "/planets",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
