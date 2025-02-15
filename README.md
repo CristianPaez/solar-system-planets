@@ -73,10 +73,6 @@ El proyecto sigue un patrón de arquitectura limpia con la siguiente estructura:
    ```
 4. Abrir [http://localhost:3000](http://localhost:3000) en tu navegador
 
-## 📱 Capturas de Pantalla
-
-[Agregar capturas de pantalla de tu aplicación aquí]
-
 ## 🧪 Principios de Desarrollo
 
 1. **Arquitectura por Capas**: 
